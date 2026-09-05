@@ -1,16 +1,7 @@
-MD JUBAIR PERSONAL WEBSITE
+MD JUBAIR PROFESSIONAL PORTFOLIO
 
-Files:
-- index.html
-- style.css
-- script.js
-- profile.jpg
+Files: index.html, style.css, script.js, profile.jpg
 
-How to use:
-1. Keep all four files in the same folder.
-2. Open index.html in a browser.
-3. The "Add / Change Photo" button lets you preview another profile photo.
-4. "Add Photos" lets you add more gallery images while the page is open.
+This is the premium dark-navy/white/blue portfolio design requested. It includes a custom MJ text logo, hero photo, About, Education, Skills, Services, Gallery, Contact and a mobile layout.
 
-Note:
-The photo buttons are designed for adding/changing images on the page. If you upload the website to a hosting service and want photos to remain permanently after refreshing, the files should be added to the website folder (or a database/storage system should be connected).
+The Add New Photo button previews additional images in the current browser session. For permanent online images, upload the image into the website folder and add it to index.html.

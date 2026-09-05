@@ -1,0 +1,4 @@
+const menu=document.querySelector('.menu'),nav=document.querySelector('nav');menu.onclick=()=>{nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.flexDirection='column';nav.style.position='absolute';nav.style.top='76px';nav.style.right='6%';nav.style.background='#061a31';nav.style.padding='8px';nav.style.borderRadius='14px'};
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('files').onchange=e=>[...e.target.files].forEach(f=>{let fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');img.src=URL.createObjectURL(f);cap.textContent=f.name;fig.append(img,cap);document.getElementById('grid').insertBefore(fig,document.querySelector('.add'))});
+const top=document.getElementById('top');onscroll=()=>top.style.display=scrollY>500?'grid':'none';top.onclick=()=>scrollTo({top:0,behavior:'smooth'});
