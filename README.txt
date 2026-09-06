@@ -1,7 +1,9 @@
-MD JUBAIR PROFESSIONAL PORTFOLIO
+MD JUBAIR UPDATED PORTFOLIO
 
-Files: index.html, style.css, script.js, profile.jpg
+Features: professional navy/blue design, three-dot menu, QR generator, browser background remover, contact section, gallery upload.
 
-This is the premium dark-navy/white/blue portfolio design requested. It includes a custom MJ text logo, hero photo, About, Education, Skills, Services, Gallery, Contact and a mobile layout.
+Upload these files to GitHub Pages: index.html, style.css, script.js, profile.jpg.
+Do NOT upload only the ZIP.
 
-The Add New Photo button previews additional images in the current browser session. For permanent online images, upload the image into the website folder and add it to index.html.
+QR generator needs internet because qrcodejs is loaded from CDN.
+Background remover uses @imgly/background-removal in the browser and needs internet/model download on first use. It creates a transparent PNG locally; no API key is included.
